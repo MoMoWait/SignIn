@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 照片显示适配器 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:src="@mipmap/img_default_head"
+        android:layout_marginBottom="@dimen/pm_little"/>
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="@dimen/pm_little"
+        android:layout_marginLeft="@dimen/pm_little"
+        android:layout_marginStart="@dimen/pm_little"
+        android:text="时间"/>
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginBottom="@dimen/pm_little"
+        android:layout_marginLeft="@dimen/pm_little"
+        android:layout_marginStart="@dimen/pm_little"
+        android:text="地点"/>
+
+    <TextView
+        android:id="@+id/text_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_marginLeft="@dimen/pm_little"
+        android:layout_marginStart="@dimen/pm_little"
+        android:text="姓名"/>
+</LinearLayout>

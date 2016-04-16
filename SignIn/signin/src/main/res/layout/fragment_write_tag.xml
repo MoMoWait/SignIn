@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/actionbar_custom"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pm_common">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                style="@style/common_edit"
+                android:layout_width="match_parent"
+                android:hint="输入姓名"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pm_common">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学号:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                style="@style/common_edit"
+                android:layout_width="match_parent"
+                android:hint="输入学号"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pm_common">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="学院:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                style="@style/common_edit"
+                android:layout_width="match_parent"
+                android:hint="输入学院"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pm_common">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年级:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                style="@style/common_edit"
+                android:layout_width="match_parent"
+                android:hint="输入年级"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="@dimen/pm_common">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="专业:"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                style="@style/common_edit"
+                android:layout_width="match_parent"
+                android:hint="输入专业"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_write"
+            style="@style/common_btn"
+            android:layout_width="match_parent"
+            android:text="写入"/>
+
+    </LinearLayout>
+</ScrollView>

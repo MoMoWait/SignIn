@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_server_ip"
+        style="@style/common_edit"
+        android:layout_width="match_parent"
+        android:hint="@string/input_server_ip"/>
+
+    <EditText
+        android:id="@+id/edt_user_name"
+        style="@style/common_edit"
+        android:layout_width="match_parent"
+        android:hint="@string/input_user_name"/>
+
+    <EditText
+        android:id="@+id/edt_password"
+        style="@style/common_edit"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:hint="@string/input_password"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_ok"
+            style="@style/common_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/ok"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/common_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+</LinearLayout>
